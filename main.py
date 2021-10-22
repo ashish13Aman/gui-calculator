@@ -17,9 +17,6 @@ def click(event):
             value=int(scvalue.get())
         else:
             value=eval(screen.get())
-
-
-
             scvalue.set(value)
             screen.update()
     else:
