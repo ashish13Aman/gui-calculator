@@ -10,7 +10,7 @@ root.wm_iconbitmap("1.ico")
 
 engine = pyttsx3.init()
 engine. setProperty("rate", 190)
-engine.say("Initializing Calculator")
+engine.say("Initializing g u i speech Calculator")
 engine.runAndWait()
 engine.stop()
 
