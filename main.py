@@ -5,7 +5,7 @@ root=Tk()
 root.geometry("900x800") 
 root.minsize(900,800)
 root.maxsize(900,800)
-root.title("GUI Calculator")
+root.title("GUI speech Calculator")
 root.wm_iconbitmap("1.ico")
 
 engine = pyttsx3.init()
