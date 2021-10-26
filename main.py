@@ -128,6 +128,6 @@ def main_window():
     button.bind("<Button-1>", click)
     frame2.pack(fill=BOTH)
 
-s_root.after(1000,main_window)
+s_root.after(1500,main_window)
 
 mainloop()
