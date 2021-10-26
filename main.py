@@ -25,10 +25,11 @@ def main_window():
     engine.say("initialising G u i speech calculator ")
     engine.runAndWait()
     engine.stop()
+    global scvalue
 
 
     def click(event):
-        global scvalue
+       
         text = event.widget.cget("text")
         print(text)
 
