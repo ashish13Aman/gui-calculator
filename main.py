@@ -7,7 +7,7 @@ from PIL import ImageTk,Image
 s_root=Tk()
 s_root.title("calculator")
 s_root.geometry("300x200")
-my_img=ImageTk.PhotoImage(Image.open("download.png"))
+my_img=ImageTk.PhotoImage(Image.open("splash.jpg"))
 my_label=Label(image=my_img)
 my_label.pack()
 
