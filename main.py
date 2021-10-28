@@ -44,8 +44,8 @@ def main_window():
                     value = eval(screen.get())
 
                 except Exception as e:
-                    value = ""
-                    tmsg.showinfo("Warning", "ERROR")
+                    value = "Error"
+                
 
             scvalue.set(value)
             screen.update()
