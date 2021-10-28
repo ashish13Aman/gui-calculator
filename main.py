@@ -18,7 +18,7 @@ def main_window():
     root.minsize(900, 800)
     root.maxsize(900, 800)
     root.title("GUI speech Calculator")
-    root.wm_iconbitmap("1.ico")
+    root.wm_iconbitmap("2.ico")
 
     engine = pyttsx3.init()
     engine.setProperty("rate", 190)
